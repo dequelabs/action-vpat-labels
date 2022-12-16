@@ -1,0 +1,10 @@
+name: Create VPAT labels
+description: Create labels needed for generating a VPAT report
+author: Deque Systems, Inc
+inputs:
+  github-token:
+    description: GitHub token
+    default: ${{ github.token }}
+runs:
+  using: node16
+  main: dist/index.js

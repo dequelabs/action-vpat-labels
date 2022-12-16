@@ -29,6 +29,7 @@ jobs:
 
 - make sure `dist/` is checked in after updating files in `src/` (_the precommit hook should do this for you_)
 - generate labels by cloning [`action-vpat-report`](https://github.com/dequelabs/action-vpat-report) in `../action-vpat-report`, then running `yarn generate-labels`
+- test by opening a _draft_ PR with your changes, the check the `Tests/create_labels` job
 
 ## License
 
